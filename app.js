@@ -8,6 +8,15 @@ const STORAGE_PREFIX = 'promptomatic.seen.';
 let PROMPTS = [];
 let TONES = [];
 
+// Display names override the raw genre keys anywhere user-facing.
+// The data structure (prompts.yml, localStorage keys) is unchanged.
+const GENRE_DISPLAY = {
+  'non-fiction': 'personal non-fiction',
+};
+function displayGenre(g) {
+  return GENRE_DISPLAY[g] || g;
+}
+
 // --- loading ---------------------------------------------------------------
 
 async function loadData() {
@@ -84,7 +93,7 @@ function renderPrompt(prompt, tone) {
       <font face="Times New Roman" size="5">&ldquo;${escapeHtml(prompt.text)}&rdquo;</font>
       <br><br>
       <font face="Times New Roman" size="2" color="#666666">
-        genre: <i>${escapeHtml(prompt.genre)}</i>
+        genre: <i>${escapeHtml(displayGenre(prompt.genre))}</i>
       </font>
       ${toneLine}
     </blockquote>
@@ -93,14 +102,15 @@ function renderPrompt(prompt, tone) {
 
 function renderExhausted(genre) {
   const out = document.getElementById('output-area');
+  const label = displayGenre(genre);
   out.innerHTML = `
     <blockquote>
       <font face="Times New Roman" size="4">
-        <b>You have seen every <i>${escapeHtml(genre)}</i> prompt we have.</b>
+        <b>You have seen every <i>${escapeHtml(label)}</i> prompt we have.</b>
       </font>
       <br><br>
       <font face="Times New Roman" size="3">
-        Hit <a href="#" id="reset-genre-link">[start over for ${escapeHtml(genre)}]</a>
+        Hit <a href="#" id="reset-genre-link">[start over for ${escapeHtml(label)}]</a>
         to clear the cache for this genre, or
         <a href="#" id="reset-all-link">[start over for everything]</a>.
       </font>
@@ -133,7 +143,7 @@ function updateCounter() {
   if (!genre) { counter.textContent = ''; return; }
   const total = promptsFor(genre).length;
   const left = unseenFor(genre).length;
-  counter.textContent = `${left} of ${total} unseen in "${genre}"`;
+  counter.textContent = `${left} of ${total} unseen in "${displayGenre(genre)}"`;
 }
 
 // --- handlers --------------------------------------------------------------
