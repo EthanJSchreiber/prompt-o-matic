@@ -1,0 +1,242 @@
+# Writing Prompts
+# ---------------
+# Add or edit prompts below. Each entry needs:
+#   - genre: one of [non-fiction, literary-fiction, fantasy, sci-fi, poetry]
+#   - text:  the prompt itself
+#
+# Genres available in the UI map 1:1 to the `genre` field, so keep the strings
+# identical. To add a new genre, also add it to the <select> in index.html.
+
+tones:
+  - pithy
+  - snarky
+  - dark
+  - dramatic
+  - matter-of-fact
+  - melancholic
+  - whimsical
+  - sardonic
+  - earnest
+  - ominous
+  - playful
+  - contemplative
+  - hopeful
+  - bitter
+  - nostalgic
+  - urgent
+  - dreamy
+  - deadpan
+  - tender
+  - absurd
+
+prompts:
+
+  # ---------- non-fiction (20) ----------
+  - genre: non-fiction
+    text: Write about a moment when you realized you were wrong about something important.
+  - genre: non-fiction
+    text: Profile the most interesting stranger you have ever overheard in public.
+  - genre: non-fiction
+    text: Describe a place that no longer exists — a torn-down building, a closed business, a paved-over field.
+  - genre: non-fiction
+    text: Explain a job your grandparents did that does not really exist anymore.
+  - genre: non-fiction
+    text: Investigate the origin of an object on your desk right now.
+  - genre: non-fiction
+    text: Walk through the first thirty minutes after you wake up, in clinical detail.
+  - genre: non-fiction
+    text: Make a case for or against a popular opinion you secretly hold.
+  - genre: non-fiction
+    text: Write about a smell that always sends you somewhere else.
+  - genre: non-fiction
+    text: Trace the path of a single dollar bill through your week.
+  - genre: non-fiction
+    text: Describe a skill you have that you have never been paid for.
+  - genre: non-fiction
+    text: Reconstruct a conversation you wish had gone differently.
+  - genre: non-fiction
+    text: Document a routine you have never broken.
+  - genre: non-fiction
+    text: Profile someone in your life by their hands.
+  - genre: non-fiction
+    text: Write about the last time you cried in public.
+  - genre: non-fiction
+    text: Explain what your hometown does not have, and why that absence matters.
+  - genre: non-fiction
+    text: Describe a family recipe and what it costs to make.
+  - genre: non-fiction
+    text: Recount a time you lied to be polite.
+  - genre: non-fiction
+    text: Map your relationship to a body of water.
+  - genre: non-fiction
+    text: Describe what you keep in your wallet, item by item.
+  - genre: non-fiction
+    text: Write a personal essay disguised as a how-to guide.
+
+  # ---------- literary-fiction (20) ----------
+  - genre: literary-fiction
+    text: Two siblings clean out their father's apartment and find a box neither was supposed to see.
+  - genre: literary-fiction
+    text: A woman receives a postcard from a friend who died six months ago.
+  - genre: literary-fiction
+    text: A man eats dinner alone at a restaurant where he was once a regular with someone else.
+  - genre: literary-fiction
+    text: Two strangers share a long train ride and almost — but not quite — tell each other the truth.
+  - genre: literary-fiction
+    text: A teenager waits for a parent to come home, knowing they will not.
+  - genre: literary-fiction
+    text: A couple repaints a room they once chose the color of together.
+  - genre: literary-fiction
+    text: An elderly man teaches his grandson how to do something useless.
+  - genre: literary-fiction
+    text: A woman returns to her childhood home and finds the new owners have not changed a single thing.
+  - genre: literary-fiction
+    text: A house cat watches a family fall apart over the course of a year.
+  - genre: literary-fiction
+    text: A woman attends the wedding of her ex's sister and behaves perfectly.
+  - genre: literary-fiction
+    text: A widower starts learning a language his late wife once spoke.
+  - genre: literary-fiction
+    text: A man drives across the country to deliver something he could have mailed.
+  - genre: literary-fiction
+    text: A daughter visits her mother in prison for the first time.
+  - genre: literary-fiction
+    text: Two old friends meet for coffee and pretend nothing has changed.
+  - genre: literary-fiction
+    text: A woman discovers her husband has been keeping a quiet, mundane secret for years.
+  - genre: literary-fiction
+    text: A family eats Christmas dinner one member short and never mentions it.
+  - genre: literary-fiction
+    text: A man cleans out his late mother's freezer and finds something unexpected.
+  - genre: literary-fiction
+    text: A woman writes a letter she will never send.
+  - genre: literary-fiction
+    text: A pair of neighbors meet for the first time at a funeral for someone they both knew.
+  - genre: literary-fiction
+    text: A boy spends a summer with relatives he barely knows and learns something about his parents.
+
+  # ---------- fantasy (20) ----------
+  - genre: fantasy
+    text: The kingdom's official dragon-slayer arrives at the dragon's lair and finds it occupied by a librarian.
+  - genre: fantasy
+    text: A blacksmith forges a sword that refuses to be used for violence.
+  - genre: fantasy
+    text: A god has forgotten their own name and is going door to door asking the faithful to remind them.
+  - genre: fantasy
+    text: The youngest of seven sisters is the only one who did not inherit the family curse — or so she has been told.
+  - genre: fantasy
+    text: Two rival apprentices are sent on the same impossible quest and must travel together.
+  - genre: fantasy
+    text: A village hires a witch to remove a haunting and discovers the ghost was holding something terrible at bay.
+  - genre: fantasy
+    text: A traveling musician's instrument is actually their dying mentor.
+  - genre: fantasy
+    text: The kingdom's library begins eating books, and the head archivist must determine which are worth saving.
+  - genre: fantasy
+    text: A retired adventurer takes in an orphan who claims to be the rightful heir to nothing.
+  - genre: fantasy
+    text: A river demands a different kind of toll this year.
+  - genre: fantasy
+    text: Magic begins to fail in alphabetical order.
+  - genre: fantasy
+    text: A knight realizes too late that the princess does not want to be rescued.
+  - genre: fantasy
+    text: A cartographer is hired to map a country that may not exist.
+  - genre: fantasy
+    text: A child trades their shadow for something they think they want more.
+  - genre: fantasy
+    text: The moon stops appearing for one person, and only one.
+  - genre: fantasy
+    text: A tavern at the edge of the world serves drinks that taste like memories you have not made yet.
+  - genre: fantasy
+    text: An exiled prince returns home in disguise and finds the kingdom has been doing better without him.
+  - genre: fantasy
+    text: A village wakes up to discover the forest has moved closer by exactly one mile.
+  - genre: fantasy
+    text: A baker accidentally invents bread that grants visions, and now must decide who deserves them.
+  - genre: fantasy
+    text: The last unicorn in the world is grumpy, opinionated, and trying to get a refund.
+
+  # ---------- sci-fi (20) ----------
+  - genre: sci-fi
+    text: The first message from another civilization is a complaint.
+  - genre: sci-fi
+    text: A maintenance worker on a generation ship discovers a passenger who is not on any manifest.
+  - genre: sci-fi
+    text: The Mars colony's first child is about to turn eighteen and wants to go to Earth.
+  - genre: sci-fi
+    text: An AI tasked with optimizing human happiness has decided the most efficient method is to lie.
+  - genre: sci-fi
+    text: A courier carries a small package across a fractured solar system, and refuses to learn what is inside.
+  - genre: sci-fi
+    text: Time travel has been invented, but only forward by one second at a time.
+  - genre: sci-fi
+    text: A team of archaeologists on a derelict alien ship realize the dust on the floor is the previous crew.
+  - genre: sci-fi
+    text: Earth receives a final transmission from a colony ship that left a hundred years ago.
+  - genre: sci-fi
+    text: The protagonist is a translator at humanity's first off-world embassy, and she has just made a serious mistake.
+  - genre: sci-fi
+    text: A pilot crashes on a planet whose ecosystem responds to her thoughts.
+  - genre: sci-fi
+    text: The cloning process used for long-haul space travel has begun producing slightly wrong copies.
+  - genre: sci-fi
+    text: A retired bounty hunter takes one last job that turns out to involve their first.
+  - genre: sci-fi
+    text: A megacorp's most successful employee discovers they have been dead for the entire fiscal year.
+  - genre: sci-fi
+    text: Humanity makes contact with another species — who have already met humanity, long ago, and would prefer not to talk about it.
+  - genre: sci-fi
+    text: A repair drone develops a moral objection to its assignment.
+  - genre: sci-fi
+    text: The colony's mandatory dream-monitoring system flags one citizen for an unusual reason.
+  - genre: sci-fi
+    text: A xenobiologist falls in love with a creature she is supposed to be studying.
+  - genre: sci-fi
+    text: The world's last librarian holds the encryption keys to a vanished internet.
+  - genre: sci-fi
+    text: Two rival pilots are stranded together on a moon with one working suit between them.
+  - genre: sci-fi
+    text: A child raised in zero-g visits Earth for the first time and finds it unbearable.
+
+  # ---------- poetry (20) ----------
+  - genre: poetry
+    text: Write a poem in which something small is given the weight of something enormous.
+  - genre: poetry
+    text: Write a poem about a body of water you have never seen in person.
+  - genre: poetry
+    text: Write a poem addressed to your own hands.
+  - genre: poetry
+    text: Write a poem that contains a lie, and reveal which line it is at the end.
+  - genre: poetry
+    text: Write a poem in the voice of an object you have lost.
+  - genre: poetry
+    text: Write a poem about a color you do not like.
+  - genre: poetry
+    text: Write a poem that begins and ends with the same line, slightly altered.
+  - genre: poetry
+    text: Write a poem about a sound you can no longer hear.
+  - genre: poetry
+    text: Write a poem in which the title is the only honest line.
+  - genre: poetry
+    text: Write a poem that takes place entirely inside a single second.
+  - genre: poetry
+    text: Write a poem about something you cannot bring yourself to throw away.
+  - genre: poetry
+    text: Write a poem about waiting for a bus that may not come.
+  - genre: poetry
+    text: Write a poem in the form of directions to a place that does not exist.
+  - genre: poetry
+    text: Write a poem about a meal eaten alone.
+  - genre: poetry
+    text: Write a poem in which weather is the antagonist.
+  - genre: poetry
+    text: Write a poem that uses no first-person pronouns.
+  - genre: poetry
+    text: Write a poem about a stranger you have thought about more than once.
+  - genre: poetry
+    text: Write a poem about an apology you have not yet made.
+  - genre: poetry
+    text: Write a poem composed entirely of questions.
+  - genre: poetry
+    text: Write a poem in which you address a younger version of yourself, in their own slang.

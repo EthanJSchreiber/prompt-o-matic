@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Prompt-O-Matic 3000</title>
+</head>
+<body bgcolor="#c0c0c0" text="#000000" link="#0000ee" vlink="#551a8b">
+
+<center>
+<table border="3" cellpadding="12" cellspacing="0" bgcolor="#ffffe0">
+<tr><td align="center">
+  <font face="Times New Roman" size="6"><b>~ The Prompt-O-Matic 3000 ~</b></font><br>
+  <font face="Times New Roman" size="2"><i>est. 2026 &middot; a fine purveyor of writing prompts &middot; no cookies, no signup, no nonsense</i></font>
+</td></tr>
+</table>
+</center>
+
+<br>
+
+<center>
+<table border="0" cellpadding="6" cellspacing="0" width="640">
+<tr><td>
+
+<hr size="2" noshade>
+
+<form id="prompt-form" onsubmit="return false;">
+<font face="Times New Roman" size="4">
+<b>Step 1.</b> Pick your genre:
+</font>
+<blockquote>
+  <font face="Times New Roman" size="3">
+  <label><input type="radio" name="genre" value="non-fiction" checked> Non-fiction</label><br>
+  <label><input type="radio" name="genre" value="literary-fiction"> Literary fiction</label><br>
+  <label><input type="radio" name="genre" value="fantasy"> Fantasy</label><br>
+  <label><input type="radio" name="genre" value="sci-fi"> Science fiction</label><br>
+  <label><input type="radio" name="genre" value="poetry"> Poetry</label><br>
+  </font>
+</blockquote>
+
+<font face="Times New Roman" size="4">
+<b>Step 2.</b> Optional extras:
+</font>
+<blockquote>
+  <font face="Times New Roman" size="3">
+  <label><input type="checkbox" id="tone-toggle"> Also suggest a <b>tone</b></label>
+  </font>
+</blockquote>
+
+<font face="Times New Roman" size="4">
+<b>Step 3.</b> Mash the button:
+</font>
+<blockquote>
+  <input type="submit" id="prompt-btn" value="  PROMPT ME  " style="font-family:Times New Roman; font-size:18px; font-weight:bold;">
+</blockquote>
+</form>
+
+<hr size="2" noshade>
+
+<div id="output-area">
+  <font face="Times New Roman" size="3" color="#555555">
+  <i>Your prompt will appear here.</i>
+  </font>
+</div>
+
+<hr size="2" noshade>
+
+<font face="Times New Roman" size="2">
+<b>Inventory:</b> <span id="counter">loading&hellip;</span>
+&nbsp;|&nbsp;
+<a href="#" id="reset-link">[start over]</a>
+&nbsp;|&nbsp;
+<a href="prompts.yml">[view the raw prompt list]</a>
+</font>
+
+<hr size="2" noshade>
+
+<font face="Times New Roman" size="2" color="#444444">
+<b>How it works.</b> Prompts are pulled from a hand-curated list in
+<code>prompts.yml</code>. Your browser remembers which ones you have seen
+(via <code>localStorage</code>) so you will not get the same prompt twice
+in a given genre. When you have exhausted a genre, hit
+<i>[start over]</i> to clear the cache for that one.
+</font>
+
+</td></tr>
+</table>
+</center>
+
+<br><br>
+
+<center>
+<font face="Times New Roman" size="1" color="#666666">
+[ <a href="https://github.com">source</a> &middot; <a href="prompts.yml">prompts.yml</a> ]
+<br>
+made on a computer &middot; works without javascript turned off (it doesn't, actually, sorry)
+</font>
+</center>
+
+<br>
+
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
