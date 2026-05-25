@@ -112,6 +112,46 @@ prompts:
     text: Profile the most argumentative person at your last family gathering.
   - genre: non-fiction
     text: Reconstruct the last lie you told yourself.
+  - genre: non-fiction
+    text: Write about an heirloom that is not valuable but will not be thrown away.
+  - genre: non-fiction
+    text: Describe a coworker who taught you something accidentally.
+  - genre: non-fiction
+    text: Trace the longest letter you have ever sent or received.
+  - genre: non-fiction
+    text: Profile a place you have sworn off and the reason you keep checking on it.
+  - genre: non-fiction
+    text: Describe what you wear when you want to be invisible.
+  - genre: non-fiction
+    text: Recount the last time someone got your order wrong and you did not correct them.
+  - genre: non-fiction
+    text: Write about the last book you abandoned and why.
+  - genre: non-fiction
+    text: Describe the last time you watched something you knew was bad just to finish it.
+  - genre: non-fiction
+    text: Document a habit you picked up from a parent and only noticed years later.
+  - genre: non-fiction
+    text: Write about a piece of clothing you have outgrown but kept.
+  - genre: non-fiction
+    text: Profile a small mistake of yours that quietly changed someone's life.
+  - genre: non-fiction
+    text: Describe a place that smells exactly the way it did twenty years ago.
+  - genre: non-fiction
+    text: Trace the most circuitous route you have ever taken to avoid someone.
+  - genre: non-fiction
+    text: Write about the first time a stranger called you "ma'am" or "sir".
+  - genre: non-fiction
+    text: Recount the moment a piece of art finally cracked you open.
+  - genre: non-fiction
+    text: Describe a friendship maintained entirely through one specific shared activity.
+  - genre: non-fiction
+    text: Write about something you used to love that you cannot stomach now.
+  - genre: non-fiction
+    text: Profile a relative you only know through stories.
+  - genre: non-fiction
+    text: Describe your phone's lock screen and what it has been for the last five years.
+  - genre: non-fiction
+    text: Write about a number that has followed you around your life.
 
   # ---------- literary-fiction (20) ----------
   - genre: literary-fiction
@@ -194,6 +234,46 @@ prompts:
     text: A man writes his father's eulogy and chooses to include the embarrassing parts.
   - genre: literary-fiction
     text: A woman finds a hidden compartment in a desk she bought at an estate sale.
+  - genre: literary-fiction
+    text: A married couple takes a road trip to a destination they have already cancelled.
+  - genre: literary-fiction
+    text: A son tells his dying father a comforting lie his father will never get to verify.
+  - genre: literary-fiction
+    text: A woman receives a wedding invitation from an ex's child she has never met.
+  - genre: literary-fiction
+    text: Two estranged sisters are forced to share a hotel room at a relative's wedding.
+  - genre: literary-fiction
+    text: A man rehearses a difficult conversation in the car and never has it.
+  - genre: literary-fiction
+    text: A woman buys her late mother's recipes from an online auction.
+  - genre: literary-fiction
+    text: A teenage girl shadows her uncle at his job and decides she will never do it.
+  - genre: literary-fiction
+    text: A grandfather teaches his grandchild to lie convincingly, for their own protection.
+  - genre: literary-fiction
+    text: A man returns a library book forty years overdue and tells the librarian why.
+  - genre: literary-fiction
+    text: A woman attends her own retirement party and overhears something she was not meant to.
+  - genre: literary-fiction
+    text: A father and his adult son go fishing and the son finally asks the question.
+  - genre: literary-fiction
+    text: A young couple tours their first house, knowing they are about to break up.
+  - genre: literary-fiction
+    text: A woman meets her birth mother for coffee and brings prepared questions she does not ask.
+  - genre: literary-fiction
+    text: A man visits the grave of a friend he never apologized to.
+  - genre: literary-fiction
+    text: A widower goes on his first date and accidentally orders for two.
+  - genre: literary-fiction
+    text: A teenage babysitter realizes the children she watches are happier with her than at home.
+  - genre: literary-fiction
+    text: A woman finds her old diary while moving and reads exactly one page.
+  - genre: literary-fiction
+    text: Two cousins meet at their grandmother's house to divide her belongings, fairly.
+  - genre: literary-fiction
+    text: A man drives past his old house and a stranger waves at him from the porch.
+  - genre: literary-fiction
+    text: A long-married couple plays a board game they used to play before the kids.
 
   # ---------- fantasy (20) ----------
   - genre: fantasy
@@ -276,6 +356,46 @@ prompts:
     text: A fallen angel takes a job at a customer service call center.
   - genre: fantasy
     text: A retired hero is summoned for one last quest and brings a cane.
+  - genre: fantasy
+    text: A village healer realizes the curse on the town is her own, accidentally cast.
+  - genre: fantasy
+    text: A dragon hires a human bookkeeper to manage the hoard.
+  - genre: fantasy
+    text: A young mapmaker discovers a continent her teachers told her did not exist.
+  - genre: fantasy
+    text: The court jester is the only person who knows the king is an imposter.
+  - genre: fantasy
+    text: A boy raised by wolves is summoned home to become heir to a kingdom.
+  - genre: fantasy
+    text: The kingdom's magic mirror is going through a depressive phase.
+  - genre: fantasy
+    text: A witch's familiar quits, citing creative differences.
+  - genre: fantasy
+    text: A widowed elf attends grief counseling with humans, who do not understand the timescales.
+  - genre: fantasy
+    text: A retired knight runs a tavern frequented by villains, and they tip well.
+  - genre: fantasy
+    text: A shapeshifter loses track of which form was original.
+  - genre: fantasy
+    text: A village hires an adventurer to deal with the dragon and is disappointed by her methods.
+  - genre: fantasy
+    text: A god grants a small wish and is bound to the petitioner forever in penance.
+  - genre: fantasy
+    text: A traveling priest discovers their god is fictional and decides to continue anyway.
+  - genre: fantasy
+    text: Two siblings inherit a magic sword and one shop, and must choose which to keep.
+  - genre: fantasy
+    text: A young woman finds out her cottage is built on top of a sleeping titan.
+  - genre: fantasy
+    text: A storm rolls in carrying letters from people who do not exist.
+  - genre: fantasy
+    text: A wizard cannot remember a single spell but is very good at pretending.
+  - genre: fantasy
+    text: A barbarian queen attends a diplomatic dinner and surprises everyone by behaving perfectly.
+  - genre: fantasy
+    text: The kingdom's last unicorn is in foster care.
+  - genre: fantasy
+    text: A ghost gets evicted and has nowhere to haunt.
 
   # ---------- sci-fi (20) ----------
   - genre: sci-fi
@@ -358,6 +478,46 @@ prompts:
     text: A child explains the concept of "weekends" to their off-world cousin, who has never had one.
   - genre: sci-fi
     text: The lighthouse keeper of a remote system maintains a beacon for ships that no longer exist.
+  - genre: sci-fi
+    text: A space station's chef is the only person who remembers what real meat tasted like.
+  - genre: sci-fi
+    text: The colony's mandatory genetic-compatibility matching system flags two people who have never met.
+  - genre: sci-fi
+    text: A salvage crew finds a centuries-old probe with a child's drawing taped to it.
+  - genre: sci-fi
+    text: An asteroid miner gets a message from herself, sent yesterday.
+  - genre: sci-fi
+    text: The first child born on a generation ship is now its captain, and the destination has changed.
+  - genre: sci-fi
+    text: A linguist is hired to read a contract written in a language no one is supposed to understand.
+  - genre: sci-fi
+    text: A cargo ship's AI develops a fondness for one specific crew member and starts protecting them.
+  - genre: sci-fi
+    text: Two researchers studying an alien artifact realize it is studying them back.
+  - genre: sci-fi
+    text: The galactic standards bureau is hiring a new auditor to inspect a planet with no rules.
+  - genre: sci-fi
+    text: A retired smuggler runs a bookshop on a moon with a quiet, problematic patron.
+  - genre: sci-fi
+    text: The mind-uploading service refuses to upload one particular customer and will not say why.
+  - genre: sci-fi
+    text: The first message in a language an AI cannot translate arrives, and everyone agrees it sounds polite.
+  - genre: sci-fi
+    text: A planet's only doctor has just realized she is the patient.
+  - genre: sci-fi
+    text: A diplomat negotiates with a species who experience time backwards.
+  - genre: sci-fi
+    text: A child's invisible friend turns out to be a transmission from a parallel universe.
+  - genre: sci-fi
+    text: A megacorp's customer service rep accidentally fixes the wrong universe.
+  - genre: sci-fi
+    text: The last human on Earth keeps a journal for the next species to read.
+  - genre: sci-fi
+    text: An archaeologist on Mars finds something distinctly Earth in origin and clearly out of place.
+  - genre: sci-fi
+    text: A pilot crashes on a planet whose inhabitants have already named her after a prophecy.
+  - genre: sci-fi
+    text: A passenger on a colony ship was supposed to wake up sixty years ago.
 
   # ---------- poetry (20) ----------
   - genre: poetry
@@ -440,3 +600,43 @@ prompts:
     text: Write a poem about something your body remembers that you do not.
   - genre: poetry
     text: Write a poem that ends with a question you have been avoiding.
+  - genre: poetry
+    text: Write a poem about a small kindness you watched but did not receive.
+  - genre: poetry
+    text: Write a poem about something you broke and did not tell anyone.
+  - genre: poetry
+    text: Write a poem in which the speaker is a room.
+  - genre: poetry
+    text: Write a poem about a phrase you only ever hear from one person.
+  - genre: poetry
+    text: Write a poem in the form of a missed connection.
+  - genre: poetry
+    text: Write a poem about a piece of weather that taught you something.
+  - genre: poetry
+    text: Write a poem composed entirely of the names of streets you have lived on.
+  - genre: poetry
+    text: Write a poem about a wound that healed in the wrong shape.
+  - genre: poetry
+    text: Write a poem in which the title contradicts the poem.
+  - genre: poetry
+    text: Write a poem about a question a child asked you that you could not answer.
+  - genre: poetry
+    text: Write a poem about the last meal you cooked for someone.
+  - genre: poetry
+    text: Write a poem in which a single object accumulates and changes meaning.
+  - genre: poetry
+    text: Write a poem about an animal that was kinder to you than most people.
+  - genre: poetry
+    text: Write a poem in the voice of a place that has been forgotten.
+  - genre: poetry
+    text: Write a poem about something seen out of a moving window.
+  - genre: poetry
+    text: Write a poem about a sound that means home, and no one else would recognize it.
+  - genre: poetry
+    text: Write a poem composed entirely in the second person, addressed to no one in particular.
+  - genre: poetry
+    text: Write a poem about a chore you have come to love.
+  - genre: poetry
+    text: Write a poem about a name that no longer fits.
+  - genre: poetry
+    text: Write a poem about the first cold morning of a year.

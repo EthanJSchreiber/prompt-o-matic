@@ -71,8 +71,24 @@ function unseenFor(genre) {
   return promptsFor(genre).filter(p => !seen.has(p.id));
 }
 
+// Cryptographically strong uniform random integer in [0, n).
+// Uses rejection sampling so there is zero modulo bias. Each browser
+// session gets independent randomness from the OS, so two users on
+// the same site will see prompts in different orders.
+function randInt(n) {
+  if (n <= 0) return 0;
+  const max = Math.floor(0xFFFFFFFF / n) * n;
+  const buf = new Uint32Array(1);
+  let x;
+  do {
+    crypto.getRandomValues(buf);
+    x = buf[0];
+  } while (x >= max);
+  return x % n;
+}
+
 function pick(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[randInt(arr.length)];
 }
 
 function escapeHtml(s) {
